@@ -56,6 +56,19 @@ dotnet run \
 The API deliberately fails during startup when the connection string is absent.
 This fail-fast behavior turns a hidden configuration problem into a clear error.
 
+Open the interactive API documentation at:
+
+```text
+https://localhost:5001/swagger
+```
+
+Operational checks are available at:
+
+```text
+https://localhost:5001/health/live
+https://localhost:5001/health/ready
+```
+
 ## Useful commands
 
 ```bash
