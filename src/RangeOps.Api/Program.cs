@@ -1,7 +1,14 @@
+using RangeOps.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
+
+var databaseConnectionString = builder.Configuration.GetConnectionString("RangeOps")
+    ?? throw new InvalidOperationException(
+        "Connection string 'RangeOps' is not configured. See docs/setup/local-development.md.");
 
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
+builder.Services.AddInfrastructure(databaseConnectionString);
 
 var app = builder.Build();
 
