@@ -87,7 +87,8 @@ By the end of this sprint, the developer should be able to explain:
 - [x] Restore and build the complete solution.
 - [x] Run the initial unit and integration test projects.
 - [x] Review and commit FND-004.
-- [ ] Complete FND-005 through FND-008 one story at a time.
+- [x] Complete FND-005: add and verify the PostgreSQL persistence foundation.
+- [ ] Complete FND-006 through FND-008 one story at a time.
 - [ ] Review the sprint increment with the project owner.
 - [ ] Complete the sprint retrospective.
 

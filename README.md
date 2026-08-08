@@ -23,6 +23,12 @@ business features have been implemented yet.
 - xUnit, FluentAssertions, and Testcontainers
 - GitHub Actions
 
+## Local development
+
+Follow the [local development setup](docs/setup/local-development.md) to start
+PostgreSQL, configure the API connection string without committing a password,
+and run the API.
+
 ## Core workflow
 
 1. An operator registers an asset and records its readiness state.
