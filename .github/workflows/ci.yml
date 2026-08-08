@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: 10.0.302
+
+      - name: Restore dependencies
+        run: dotnet restore RangeOps.sln
+
+      - name: Build
+        run: dotnet build RangeOps.sln --configuration Release --no-restore
+
+      - name: Test
+        run: dotnet test RangeOps.sln --configuration Release --no-build --logger "console;verbosity=normal"
