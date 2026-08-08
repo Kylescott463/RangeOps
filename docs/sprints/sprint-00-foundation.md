@@ -4,7 +4,7 @@
 
 - **Duration:** One week
 - **Developer:** Solo
-- **Status:** In progress
+- **Status:** Completed
 - **Sprint goal:** Establish an agreed, testable product direction and engineering
   foundation before application code is written.
 
@@ -31,7 +31,7 @@
 - [x] Define story and sprint completion standards.
 - [x] Review these decisions with the project owner.
 - [x] Create the initial documentation commit.
-- [ ] Push the initial commit to GitHub.
+- [x] Push the initial commit to GitHub.
 
 ## Exit criteria
 
@@ -58,6 +58,7 @@ Before accepting the sprint, confirm:
 
 Complete at sprint close:
 
-- **Keep:** To be recorded
-- **Change:** To be recorded
-- **Try next:** To be recorded
+- **Keep:** Verify the environment first and record decisions before coding.
+- **Change:** Check GitHub branch tracking as soon as the remote is configured.
+- **Try next:** Build Sprint 1 as a thin, runnable vertical foundation with tests
+  and documentation included from the beginning.
