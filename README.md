@@ -8,10 +8,10 @@ to a mission and reports the exact issues that prevent approval.
 
 ## Project status
 
-**Current phase:** Sprint 0 — Product and architecture planning
+**Current phase:** Sprint 1 — Walking skeleton
 
-No application code has been created yet. The repository currently contains the
-agreed product scope and engineering plan.
+The solution boundaries and engineering defaults are in place. No RangeOps
+business features have been implemented yet.
 
 ## Planned technology stack
 
@@ -40,6 +40,8 @@ agreed product scope and engineering plan.
 - [Product backlog](docs/product-backlog.md)
 - [Definition of done](docs/definition-of-done.md)
 - [Sprint 0 plan](docs/sprints/sprint-00-foundation.md)
+- [Sprint 1 plan](docs/sprints/sprint-01-walking-skeleton.md)
+- [Architecture decision records](docs/decisions/)
 
 ## Planned delivery sequence
 
@@ -53,4 +55,3 @@ agreed product scope and engineering plan.
 | 5 | Readiness validation and authorized mission approval |
 | 6 | Audit logging, concurrency, filtering, and pagination hardening |
 | 7 | Full integration coverage, containers, CI, and portfolio documentation |
-

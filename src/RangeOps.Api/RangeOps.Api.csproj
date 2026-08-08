@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <!-- Overrides a vulnerable transitive version while staying on the compatible 2.x line. -->
+    <PackageReference Include="Microsoft.OpenApi" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../RangeOps.Application/RangeOps.Application.csproj" />
+    <ProjectReference Include="../RangeOps.Infrastructure/RangeOps.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

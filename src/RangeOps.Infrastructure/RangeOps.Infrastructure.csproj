@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../RangeOps.Application/RangeOps.Application.csproj" />
+    <ProjectReference Include="../RangeOps.Domain/RangeOps.Domain.csproj" />
+  </ItemGroup>
+</Project>
