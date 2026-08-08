@@ -69,6 +69,18 @@ https://localhost:5001/health/live
 https://localhost:5001/health/ready
 ```
 
+## 5. Run automated tests
+
+Keep Docker Desktop running, then execute:
+
+```bash
+dotnet test RangeOps.sln
+```
+
+The integration test starts its own temporary PostgreSQL container on a random
+host port. It does not read or modify the Compose-managed development database.
+Testcontainers removes the temporary container after the test run.
+
 ## Useful commands
 
 ```bash
