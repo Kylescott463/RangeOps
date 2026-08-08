@@ -1,5 +1,7 @@
 # RangeOps — Mission Readiness API
 
+[![CI](https://github.com/Kylescott463/RangeOps/actions/workflows/ci.yml/badge.svg)](https://github.com/Kylescott463/RangeOps/actions/workflows/ci.yml)
+
 RangeOps is a defense-style backend system for tracking equipment readiness,
 maintenance work, mission requirements, and mission approval decisions.
 
